@@ -15,8 +15,8 @@ logger = logging.getLogger()
 def analyze_msms_data():
     try:
         # Configuration - UPDATE THESE PATHS
-        input_dir = Path(r"F:/Masshunter/Data/16032024_POS_C18/mzml")
-        output_dir = Path(r"F:/Masshunter/Data/16032024_POS_C18/mzml/MS")
+        input_dir = Path(r"D:/Data")
+        output_dir = Path(r"D:/Data/Results")
         
         # Verify paths
         if not input_dir.exists():
